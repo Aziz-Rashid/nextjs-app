@@ -1,0 +1,90 @@
+{
+  "name": "themoti-next-heroku-v3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "devbackend": "nodemon server/index.js",
+    "dev": "node server/index.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server/index.js -p $PORT"
+  },
+  "cacheDirectories": [
+    ".next/cache"
+  ],
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.9.3",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.2.0",
+    "cron": "^1.8.2",
+    "cross-env": "^7.0.0",
+    "dayjs": "^1.8.29",
+    "disqus-react": "^1.0.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "express-session": "^1.17.1",
+    "express-sitemap-xml": "^1.1.0",
+    "express-validator": "^6.6.1",
+    "googleapis": "^47.0.0",
+    "handlebars": "^4.7.6",
+    "helmet": "^3.23.3",
+    "html-to-text": "^5.1.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "languagedetect": "^2.0.0",
+    "mailchimp-api-v3": "^1.13.1",
+    "mailgun-js": "^0.22.0",
+    "mime": "^2.4.6",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^5.9.21",
+    "next": "^9.5.5",
+    "next-images": "^1.6.0",
+    "nodemailer": "^6.4.11",
+    "nprogress": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "16.12.0",
+    "react-background-slider": "^2.0.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-content-loader": "^5.1.2",
+    "react-dom": "16.12.0",
+    "react-google-recaptcha": "^2.0.1",
+    "react-icons": "^3.10.0",
+    "react-lazy-load-image-component": "^1.5.0",
+    "react-paginate": "^6.3.2",
+    "react-player": "^2.3.1",
+    "react-responsive-carousel": "^3.2.9",
+    "react-share": "^4.2.0",
+    "react-truncate-markup": "^4.1.1",
+    "rss-parser": "^3.9.0",
+    "slugify": "^1.4.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "errorhandler": "^1.5.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakhousam/themoti-next-heroku-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yakhousam/themoti-next-heroku-v3/issues"
+  },
+  "homepage": "https://github.com/yakhousam/themoti-next-heroku-v3#readme",
+  "description": ""
+}

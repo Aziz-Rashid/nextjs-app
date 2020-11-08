@@ -1,0 +1,13 @@
+.checkmark, .unchecked{
+  font-size: 1.5em;
+  fill:#2871fa;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.wrapper:hover .unchecked{
+  fill: #6717cd;
+} 

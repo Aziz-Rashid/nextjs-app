@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.container li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page{
+  text-decoration: none;
+  color: inherit;
+  padding: .2em .5em;
+ 
+}
+.active{
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+}
